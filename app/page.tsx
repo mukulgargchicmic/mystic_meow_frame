@@ -49,15 +49,22 @@ export default function App() {
   }, [])
 
   return (
-    <div className="container prose mx-auto max-w-prose p-10">
+    <div className="container prose mx-auto max-w-prose bg-[#312e81]">
       {error === null ? (
         context === null ? (
-          <div>Loading frame context...</div>
+          <div className="flex min-h-screen items-center justify-center">
+            <div className="rounded-lg bg-white/5 p-8 backdrop-blur-sm">
+              <div className="flex items-center gap-3">
+                <div className="h-5 w-5 animate-spin rounded-full border-b-2 border-white"></div>
+                <span className="text-lg font-medium text-white/90">Loading frame context...</span>
+              </div>
+            </div>
+          </div>
         ) : (
           <Home context={context} />
         )
       ) : (
-        <div>{error}</div>
+        <div className="rounded-lg bg-red-500/10 p-4 text-red-200">{error}</div>
       )}
     </div>
   )

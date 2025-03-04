@@ -15,7 +15,7 @@ export function FortuneTeller() {
     <div className="w-full flex flex-col items-center mb-10">
       <div className="relative mb-6">
         <img 
-          src={CAT_IMAGE_URL}
+          src={"/images/head.png"}
           alt="Cosmic Cat"
           className="w-48 h-48 object-cover rounded-full border-4 border-purple-300"
           style={{ 
