@@ -16,6 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="fc:frame"
+          content='{"version":"next","imageUrl":"https://mysticmeow.vercel.app/SnakyCatLogo.png","button":{"title":"MysticMeow","action":{"type":"launch_frame","name":"MysticMeow","url":"https://mysticmeow.vercel.app","splashImageUrl":"https://mysticmeow.vercel.app/SnakyCatLogo.png","splashBackgroundColor":"#312e81"}}}'
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
