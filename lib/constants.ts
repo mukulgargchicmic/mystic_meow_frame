@@ -27,6 +27,6 @@ export const PREMIUM_OPTIONS = [
   { price: "$5", value: 5 }
 ];
 
-export const SHARE_URL = "https://mystic-meow.vercel.app/share/12345";
+export const SHARE_URL = "https://mystic-meow-frame.vercel.app/share/12345";
 
 export const CAT_IMAGE_URL = "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80";

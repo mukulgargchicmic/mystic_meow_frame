@@ -2,9 +2,9 @@
     "frame": {
     "version": "1",
     "name": "MysticMeow: Feline Fortune Telling",
-    "iconUrl": "https://mystic-meow.vercel.app/SnakyCatLogo.png",
-    "homeUrl": "https://mystic-meow.vercel.app",
-    "imageUrl": "https://mystic-meow.vercel.app/thumbnail.png",
+    "iconUrl": "https://mystic-meow-frame.vercel.app/SnakyCatLogo.png",
+    "homeUrl": "https://mystic-meow-frame.vercel.app",
+    "imageUrl": "https://mystic-meow-frame.vercel.app/thumbnail.png",
     "buttonTitle": "MysticMeow",
     "splashBackgroundColor": "#312e81"
   }
