@@ -18,6 +18,7 @@ export function CrystalBallButton({ onClick, isRevealing }: CrystalBallButtonPro
         ${isRevealing ? 'animate-pulse' : ''}`}
       disabled={isRevealing}
       aria-label="Reveal prediction"
+      id="crystal-ball-button"
     >
       <span>Tap to</span>
       <span>reveal</span>
